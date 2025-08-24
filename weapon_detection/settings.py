@@ -21,15 +21,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-t1y7x^%m9j2o7e2t3!%ol7a9--9&nzxonj7#i$j967wwmy@4dy'
+SECRET_KEY = 'django-inse.............j967wwmy@4dy'
 
 #AWS KEYS
 AWS_ACCESS_KEY_ID = 'AK....AQE'
 AWS_SECRET_ACCESS_KEY = 'B4......dV'
 REGION_NAME = 'ap-south-1'
 
-SNS_TOPIC_ARN = 'arn:aws:sns:ap-south-1:381491830624:weapondetectionsystem'
-ROLE_ARN = 'arn:aws:iam::381491830624:role/ai3weapondetection'
+SNS_TOPIC_ARN = 'arn:aws:sns:ap-south-1:3624:weapondetectionsystem'
+ROLE_ARN = 'arn:aws:iam::3624:role/ai3weapondetection'
 BUCKET_NAME = 'ai3weapondetectionsystem'
 
 # SECURITY WARNING: don't run with debug turned on in production!
