@@ -1,0 +1,57 @@
+# AI-Enhanced Weapon Detection and Alert System with Amazon Rekognition
+
+This is a **Django-based web application** that integrates **Amazon Rekognition** to detect weapons in images and videos.  
+It provides **real-time analysis, user authentication, and a dashboard** for managing and viewing results.
+
+---
+
+## 🚀 Features
+- 🔫 Weapon detection in images and videos using **Amazon Rekognition**.  
+- 👤 User registration, login, and profile management.  
+- 📊 Dashboard for viewing analysis results.  
+- 🔐 Secure handling of AWS credentials.  
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Tirru-2002/AI-ENHANCED-WEAPON-DETECTION-AND-ALERT-SYSTEM-WITH-AMAZON-REKOGNITION.git
+cd AI-ENHANCED-WEAPON-DETECTION-AND-ALERT-SYSTEM-WITH-AMAZON-REKOGNITION
+
+### 2️⃣ Create Virtual Environment
+python -m venv venv
+venv\Scripts\activate   # On Windows
+source venv/bin/activate   # On Mac/Linux
+
+### 3️⃣ Install Dependencies
+pip install -r requirements.txt
+
+### 4️⃣ Setup Environment Variables
+AWS_ACCESS_KEY_ID=your_access_key
+AWS_SECRET_ACCESS_KEY=your_secret_key
+AWS_REGION=your_region
+
+### 5️⃣ Run Migrations
+python manage.py migrate
+
+### 6️⃣ Start Development Server
+python manage.py runserver
+
+
+📌 Usage
+
+Register or log in to the application.
+Upload an image or video for weapon detection.
+View results in the dashboard.
+Get instant alerts when a weapon is detected.
+
+
+🛠️ Tech Stack
+
+Backend: Django, Python
+Frontend: HTML, CSS, JavaScript (Django templates)
+Cloud: AWS Rekognition, AWS S3
+Database: SQLite (default) / PostgreSQL
+
