@@ -17,18 +17,24 @@ It provides **real-time analysis, user authentication, and a dashboard** for man
 
 ### 1️⃣ Clone the Repository
 
-```git clone https://github.com/Tirru-2002/AI-ENHANCED-WEAPON-DETECTION-AND-ALERT-SYSTEM-WITH-AMAZON-REKOGNITION.git```
-```cd AI-ENHANCED-WEAPON-DETECTION-AND-ALERT-SYSTEM-WITH-AMAZON-REKOGNITION```
+```bash
+git clone https://github.com/Tirru-2002/AI-ENHANCED-WEAPON-DETECTION-AND-ALERT-SYSTEM-WITH-AMAZON-REKOGNITION.git
+cd AI-ENHANCED-WEAPON-DETECTION-AND-ALERT-SYSTEM-WITH-AMAZON-REKOGNITION
+```
 
 ### 2️⃣ Create Virtual Environment
 
-```python -m venv venv```
-```venv\Scripts\activate   # On Windows```
-```source venv/bin/activate   # On Mac/Linux```
+```bash
+python -m venv venv
+venv\Scripts\activate   # On Windows
+source venv/bin/activate   # On Mac/Linux
+```
 
 ### 3️⃣ Install Dependencies
 
-```pip install -r requirements.txt```
+```bash
+pip install -r requirements.txt
+```
 
 ### 4️⃣ Setup Environment Variables
 
@@ -38,25 +44,30 @@ AWS_REGION=your_region
 
 ### 5️⃣ Run Migrations
 
-```python manage.py migrate```
+```bash
+python manage.py migrate
+```
 
 ### 6️⃣ Start Development Server
 
-```python manage.py runserver```
+```bash
+python manage.py runserver
+```
 
-
+---
 📌 Usage
 
-Register or log in to the application.
-Upload an image or video for weapon detection.
-View results in the dashboard.
-Get instant alerts when a weapon is detected.
-
-
+- Register or log in to the application.
+- Upload an image or video for weapon detection.
+- View results in the dashboard.
+- Get instant alerts when a weapon is detected.
+---
+---
 🛠️ Tech Stack
 
-Backend: Django, Python
-Frontend: HTML, CSS, JavaScript (Django templates)
-Cloud: AWS Rekognition, AWS S3
-Database: SQLite (default) / PostgreSQL
+- Backend: Django, Python
+- Frontend: HTML, CSS, JavaScript (Django templates)
+- Cloud: AWS Rekognition, AWS S3
+- Database: SQLite (default) / PostgreSQL
+---
 
