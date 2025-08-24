@@ -38,9 +38,11 @@ pip install -r requirements.txt
 
 ### 4️⃣ Setup Environment Variables
 
+```env
 AWS_ACCESS_KEY_ID=your_access_key
 AWS_SECRET_ACCESS_KEY=your_secret_key
 AWS_REGION=your_region
+```
 
 ### 5️⃣ Run Migrations
 
