@@ -24,8 +24,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-t1y7x^%m9j2o7e2t3!%ol7a9--9&nzxonj7#i$j967wwmy@4dy'
 
 #AWS KEYS
-AWS_ACCESS_KEY_ID = 'AKIAVRUVPL5QLIEA4AQE'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = 'AK....AQE'
+AWS_SECRET_ACCESS_KEY = 'B4......dV'
 REGION_NAME = 'ap-south-1'
 
 SNS_TOPIC_ARN = 'arn:aws:sns:ap-south-1:381491830624:weapondetectionsystem'
