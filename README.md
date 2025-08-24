@@ -16,28 +16,33 @@ It provides **real-time analysis, user authentication, and a dashboard** for man
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/Tirru-2002/AI-ENHANCED-WEAPON-DETECTION-AND-ALERT-SYSTEM-WITH-AMAZON-REKOGNITION.git
-cd AI-ENHANCED-WEAPON-DETECTION-AND-ALERT-SYSTEM-WITH-AMAZON-REKOGNITION
+
+```git clone https://github.com/Tirru-2002/AI-ENHANCED-WEAPON-DETECTION-AND-ALERT-SYSTEM-WITH-AMAZON-REKOGNITION.git```
+```cd AI-ENHANCED-WEAPON-DETECTION-AND-ALERT-SYSTEM-WITH-AMAZON-REKOGNITION```
 
 ### 2️⃣ Create Virtual Environment
-python -m venv venv
-venv\Scripts\activate   # On Windows
-source venv/bin/activate   # On Mac/Linux
+
+```python -m venv venv```
+```venv\Scripts\activate   # On Windows```
+```source venv/bin/activate   # On Mac/Linux```
 
 ### 3️⃣ Install Dependencies
-pip install -r requirements.txt
+
+```pip install -r requirements.txt```
 
 ### 4️⃣ Setup Environment Variables
+
 AWS_ACCESS_KEY_ID=your_access_key
 AWS_SECRET_ACCESS_KEY=your_secret_key
 AWS_REGION=your_region
 
 ### 5️⃣ Run Migrations
-python manage.py migrate
+
+```python manage.py migrate```
 
 ### 6️⃣ Start Development Server
-python manage.py runserver
+
+```python manage.py runserver```
 
 
 📌 Usage
