@@ -36,14 +36,21 @@ source venv/bin/activate   # On Mac/Linux
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Setup Environment Variables
+### 4️⃣ Setup AWS Keys and Django SECRET_KEY
 ```bash
 cd weapon_detection\settings.py
 ```
+#### AWS Credentials
 ```env
 AWS_ACCESS_KEY_ID=your_access_key
 AWS_SECRET_ACCESS_KEY=your_secret_key
 AWS_REGION=your_region
+```
+
+#### Django Secret Key
+- SECRET_KEY=your_generated_secret_key
+```bash
+python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
 ```
 
 ### 5️⃣ Run Migrations
